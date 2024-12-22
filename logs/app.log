@@ -1,0 +1,8 @@
+[2024-12-22T15:34:14.493Z] [32minfo[39m: Connecting to database 
+[2024-12-22T15:34:14.518Z] [32minfo[39m: Fetched products successfully {"totalProducts":5}
+[2024-12-22T15:34:31.569Z] [32minfo[39m: Connecting to database 
+[2024-12-22T15:34:31.574Z] [32minfo[39m: Fetched products successfully {"totalProducts":5}
+[2024-12-22T15:34:50.659Z] [32minfo[39m: Connecting to database 
+[2024-12-22T15:34:50.663Z] [32minfo[39m: Fetched products successfully {"totalProducts":5}
+[2024-12-22T15:35:01.630Z] [32minfo[39m: Connecting to database 
+[2024-12-22T15:35:01.634Z] [32minfo[39m: Fetched products successfully {"totalProducts":5}
