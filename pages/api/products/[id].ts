@@ -9,8 +9,20 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   await connectDB();
   logger.info('Connecting to database');
   const { id } = req.query;
-
-  if (req.method === 'PUT') {
+  if (req.method === 'GET') {
+    try {
+      const product = await Product.findById(id);
+      if (!product) {
+        logger.warn('Product not found', { id });
+        return res.status(404).json({ message: 'Product not found' });
+      }
+      logger.info('Product retrieved successfully', { product });
+      res.status(200).json(product);
+    } catch (error) {
+      logger.error('Error retrieving product', { error });
+      res.status(500).json({ message: 'Error retrieving product' });
+    }
+  } else if (req.method === 'PUT') {
     try {
       const updatedProduct = await Product.findByIdAndUpdate(id, req.body, { new: true });
       logger.info('Product updated successfully', { updatedProduct });

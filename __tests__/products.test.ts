@@ -1,5 +1,5 @@
 import request from 'supertest';
-import app from '../pages/api/products/index'; // Update the path if necessary
+import app from '../pages/api/products'; // Update the path if necessary
 
 describe('Product API Endpoints', () => {
   it('GET /api/products - should fetch all products', async () => {

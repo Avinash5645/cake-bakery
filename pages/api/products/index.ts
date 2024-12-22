@@ -18,7 +18,7 @@ const productSchema = z.object({
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   await connectDB();
   logger.info('Connecting to database');
-
+console.log("hell");
   const { page = 1, limit = 10, category, search, minPrice, maxPrice, inStock } = req.query;
 
   if (req.method === 'GET') {

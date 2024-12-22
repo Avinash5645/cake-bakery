@@ -1,0 +1,1 @@
+{"error":{"issues":[{"code":"too_small","exact":false,"inclusive":true,"message":"Name is required","minimum":1,"path":["name"],"type":"string"}],"name":"ZodError"},"level":"error","message":"Error creating product"}
