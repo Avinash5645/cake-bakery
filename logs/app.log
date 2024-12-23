@@ -6,3 +6,11 @@
 [2024-12-22T15:34:50.663Z] [32minfo[39m: Fetched products successfully {"totalProducts":5}
 [2024-12-22T15:35:01.630Z] [32minfo[39m: Connecting to database 
 [2024-12-22T15:35:01.634Z] [32minfo[39m: Fetched products successfully {"totalProducts":5}
+[2024-12-23T01:48:04.702Z] [32minfo[39m: Connecting to database 
+[2024-12-23T01:48:04.732Z] [32minfo[39m: Product created successfully {"newProduct":{"name":"Test Product","description":"A product for testing purposes","price":99.99,"image":"https://example.com/image.jpg","category":"Test Category","stock":10,"_id":"6768c15410d9879c41d0e577","__v":0}}
+[2024-12-23T01:48:30.895Z] [32minfo[39m: Connecting to database 
+[2024-12-23T01:48:30.923Z] [32minfo[39m: Product updated successfully {"updatedProduct":{"_id":"6768c15410d9879c41d0e577","name":"Test Productuu2","description":"A product for testing purposes","price":99.99,"image":"https://example.com/image.jpg","category":"Test Category","stock":10,"__v":0}}
+[2024-12-23T02:37:50.450Z] [32minfo[39m: Admin route accessed 
+[2024-12-23T02:37:50.453Z] [33mwarn[39m: Unauthorized access attempt to admin route {}
+[2024-12-23T02:37:54.792Z] [32minfo[39m: Admin route accessed 
+[2024-12-23T02:37:54.793Z] [33mwarn[39m: Unauthorized access attempt to admin route {}
